@@ -225,7 +225,7 @@
     align-self: center;
     width: 4px;
     height: 4%;
-    transition: height 0.5s;
+    transition: height 1s;
     z-index: 1;
     background: linear-gradient(180deg, #f4b9a4 0%, #5388e1 100%);
 }
