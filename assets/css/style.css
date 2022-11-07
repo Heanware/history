@@ -224,8 +224,7 @@
     position: absolute;
     align-self: center;
     width: 4px;
-    height: 4%;
-    transition: height 1s;
+    transition: height 0.1s linear;
     z-index: 1;
     background: linear-gradient(180deg, #f4b9a4 0%, #5388e1 100%);
 }
@@ -272,7 +271,9 @@
     align-self: center;
     opacity: 0.2;
 }
-
+.point-active{
+    opacity: unset;
+}
 .history__timeline--item-description {
     font-size: 24px;
     flex: 1;
