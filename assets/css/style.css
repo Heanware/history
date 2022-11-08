@@ -198,8 +198,8 @@
 .history__timeline {
     display: flex;
     flex-direction: column;
-    padding-bottom: 300px;
-    padding-top: 150px;
+    padding-top: 360px;
+    padding-bottom: 360px;
     background: linear-gradient(180deg, #FFE6DE 0%, #FFFAEE 13.54%, #FFFFEB 27.6%, #EBF8FF 42.19%, #E8F1FF 56.77%, #E8EDFF 71.35%, #EAECFF 85.42%, #FFF5F5 100%);
 }
 
@@ -207,12 +207,13 @@
     color: #8b8b8b;
     position: sticky;
     top: 150px;
-    padding-bottom: 150px;
+    height: 0;
 }
 
 .history__timeline--progressbar-line {
     position: absolute;
-    border: 2px solid #232323;
+    border-left: 2px solid #232323;
+    border-right: 2px solid #232323;
     height: 100%;
     align-self: center;
     z-index: 0;
@@ -224,7 +225,8 @@
     position: absolute;
     align-self: center;
     width: 4px;
-    transition: height 0.1s linear;
+    max-height: 100%;
+    transition: height 0.2s linear;
     z-index: 1;
     background: linear-gradient(180deg, #f4b9a4 0%, #5388e1 100%);
 }
@@ -249,6 +251,8 @@
     flex: 1;
     text-align: right;
     overflow-wrap: anywhere;
+    opacity: 0.2;
+    transition: opacity 0.5s;
 }
 
 .history__timeline--item-point-wrapper {
@@ -270,11 +274,16 @@
     z-index: 3;
     align-self: center;
     opacity: 0.2;
+    transition: opacity 0.5s;
 }
-.point-active{
+
+.item-active div {
     opacity: unset;
 }
+
 .history__timeline--item-description {
     font-size: 24px;
     flex: 1;
+    opacity: 0.2;
+    transition: opacity 0.5s;
 }
