@@ -45,7 +45,7 @@
 
 .history__beginning--element-description,
 .history__header--description-text,
-.history__modern--text-wrapper:first-child > .history__modern--text {
+.history__modern--text-wrapper:last-child > .history__modern--text {
     text-indent: 35px;
 }
 
@@ -156,19 +156,20 @@
 }
 
 .small-img {
-    width: 450px;
-    height: 450px;
+    max-width: 450px;
+    max-height: 450px;
     min-height: unset;
+    height: 100%;
     align-self: self-end;
 }
 
 .history__beginning--element:last-child > .history__beginning--element-description-wrapper {
     flex: 1 0 50%;
-    padding: 200px 0;
+    padding: 250px 0;
     max-width: unset;
 }
 
-.history__beginning--element:last-child > .history__beginning--element-description {
+.history__beginning--element:last-child .history__beginning--element-description {
     font-size: 20px;
 }
 

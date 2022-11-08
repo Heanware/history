@@ -8,6 +8,69 @@
     .history__header {
         grid-template-rows: 680px;
     }
+
+    .history__about {
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+
+    .history__beginning--title {
+        padding-bottom: 50px;
+    }
+
+    .history__beginning--element:first-child {
+        padding-bottom: 100px;
+    }
+
+    .history__beginning--element-img {
+        max-width: 576px;
+        min-height: 580px;
+    }
+
+    .history__beginning--element-images {
+        min-height: 396px;
+    }
+
+    .history__beginning--element-images > .history__beginning--element-img {
+        max-width: 239px;
+    }
+
+    .history__beginning--element-quote {
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
+
+    .oil .history__beginning--element-description-text {
+        padding-top: 80px;
+    }
+
+    .small-img {
+        max-width: 345px;
+        max-height: 345px;
+        min-height: unset;
+    }
+
+    .history__beginning--element:last-child > .history__beginning--element-description-wrapper {
+        padding: 200px 0;
+    }
+
+    .history__modern {
+        padding-top: 250px;
+        padding-bottom: 200px;
+    }
+    .history__modern--text{
+        max-width: 700px;
+    }
+    .history__timeline-wrapper{
+        max-height: 800px;
+    }
+    .history__timeline{
+        padding-top: 260px;
+        padding-bottom: 260px;
+    }
+    .history__timeline--title{
+        top: 130px;
+    }
 }
 
 @media (max-width: 1024px) {
