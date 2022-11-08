@@ -14,8 +14,7 @@ class AnimatedTimeline{
             let $scrollingBlock = thisTimeline.$wrapper.find(".js-timeline-scrolling"),
                 scroll = $(this).scrollTop(),
                 actualHeight = Math.ceil(parseInt($scrollingBlock.innerHeight()) - parseInt(thisTimeline.$wrapper.css("height"))),
-                firstItemHeight = thisTimeline.$items.first().height(),
-                progressPercentage = firstItemHeight + Math.ceil(actualHeight / 100) * ((scroll / actualHeight) * 100);
+                progressPercentage =  thisTimeline.$items.first().height() + Math.ceil(actualHeight / 100) * ((scroll / actualHeight) * 100);
             thisTimeline.$bar.css("height", progressPercentage);
             thisTimeline.$items.each(function(){
                 let $item = $(this);
