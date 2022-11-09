@@ -192,6 +192,10 @@
         font-size: 12px;
     }
 
+    .history__timeline--item {
+        gap: 60px;
+    }
+
     .history__timeline--item-title {
         font-size: 42px;
     }
@@ -282,9 +286,17 @@
         padding-top: 260px;
         padding-bottom: 260px;
     }
+
+    .history__timeline--item {
+        gap: 40px;
+    }
 }
 
 @media (max-width: 568px) {
+
+    .history__modern--text, .history__beginning--element-description, .history__header--description-text {
+        text-indent: unset;
+    }
 
     .container {
         padding-left: 15px;
@@ -306,6 +318,109 @@
 
     .history__header--description-text {
         font-size: 12px;
+    }
+
+    .history__about {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .history__about--text {
+        font-size: 18px;
+        max-width: 340px;
+    }
+
+    .history__beginning--title {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .history__beginning--element-img {
+        max-width: 255px;
+        min-height: 255px;
+    }
+
+    .history__modern--text, .history__beginning--element-description {
+        font-size: 12px;
+        max-width: 255px;
+    }
+
+    .history__beginning--element:first-child {
+        padding-bottom: 80px;
+    }
+
+    .history__beginning--element-images > .history__beginning--element-img {
+        max-height: 132px;
+        max-width: 81px;
+    }
+
+    .quote > .history__beginning--element-quote {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        font-size: 18px;
+        max-width: 390px;
+    }
+
+    .oil .history__beginning--element-description-text {
+        padding-top: 10px;
+    }
+
+    .small-img {
+        max-width: 155px;
+        min-height: 155px;
+    }
+
+    .history__beginning--element:last-child > .history__beginning--element-description-wrapper {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .history__beginning--element:last-child .history__beginning--element-description {
+        font-size: 12px;
+    }
+
+    .history__modern {
+        flex-direction: column;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .history__modern--text-wrapper {
+        flex: 1;
+    }
+
+    .history__modern--text-wrapper:first-child > .history__modern--text {
+        font-size: 22px;
+        padding-bottom: 30px;
+    }
+
+    .history__modern--text-wrapper:last-child > .history__modern--text {
+        font-size: 14px;
+    }
+
+    .history__modern--text {
+        max-width: 400px;
+    }
+
+    .history__timeline-wrapper {
+        max-height: 320px;
+    }
+
+    .history__timeline {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+    .history__timeline--title {
+        top: 20px;
+    }
+
+    .history__timeline--item-title {
+        font-size: 26px;
+    }
+
+    .history__timeline--item-description {
+        font-size: 14px;
     }
 }
 
