@@ -148,6 +148,7 @@
     display: flex;
     flex-direction: column;
     max-width: unset;
+    justify-content: space-between;
 }
 
 .oil .history__beginning--element-description-text {
@@ -213,6 +214,7 @@
     position: sticky;
     top: 150px;
     height: 0;
+    font-size: 16px;
 }
 
 .history__timeline--progressbar-line {
@@ -233,7 +235,7 @@
     max-height: 100%;
     transition: height 0.2s linear;
     z-index: 1;
-    background: linear-gradient(180deg, #f4b9a4 0%, #5388e1 100%);
+    background:  linear-gradient(180deg, #F4B9A4 0%, #71B9EE 25%, #5387E1 50%, #8F94FF 75%, #FDB8DB 100%);
 }
 
 .history__timeline--items {
