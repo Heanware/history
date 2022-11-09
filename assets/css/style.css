@@ -212,9 +212,10 @@
 .history__timeline--title {
     color: #8b8b8b;
     position: sticky;
-    top: 150px;
+    top: 360px;
     height: 0;
     font-size: 16px;
+    transform: translateY(-210px);
 }
 
 .history__timeline--progressbar-line {
@@ -235,7 +236,7 @@
     max-height: 100%;
     transition: height 0.2s linear;
     z-index: 1;
-    background:  linear-gradient(180deg, #F4B9A4 0%, #71B9EE 25%, #5387E1 50%, #8F94FF 75%, #FDB8DB 100%);
+    background: linear-gradient(180deg, #F4B9A4 0%, #71B9EE 25%, #5387E1 50%, #8F94FF 75%, #FDB8DB 100%);
 }
 
 .history__timeline--items {
@@ -247,7 +248,8 @@
 .history__timeline--item {
     display: flex;
     width: 100%;
-    min-height: 270px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     align-items: center;
     align-self: center;
     gap: 80px;
