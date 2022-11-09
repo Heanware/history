@@ -85,6 +85,7 @@
 
 .history__beginning--element {
     display: flex;
+    gap: 20px;
 }
 
 .history__beginning--element:first-child {
@@ -104,9 +105,8 @@
 }
 
 .history__beginning--element-description-wrapper {
-    max-width: 765px;
-    width: 100%;
     display: flex;
+    flex: 0 0 50%;
 }
 
 .history__beginning--element-description {

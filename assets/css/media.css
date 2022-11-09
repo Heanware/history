@@ -127,7 +127,6 @@
         min-height: 435px;
     }
 
-    .history__beginning--element-description-wrapper,
     .history__beginning--element-description {
         font-size: 14px;
         max-width: 465px;
@@ -179,17 +178,25 @@
     .history__modern--text-wrapper:last-child > .history__modern--text {
         font-size: 18px;
     }
-    .history__timeline{
+
+    .history__timeline-wrapper {
+        max-height: 768px;
+    }
+
+    .history__timeline {
         padding-top: 245px;
         padding-bottom: 245px;
     }
-    .history__timeline--title{
+
+    .history__timeline--title {
         font-size: 12px;
     }
-    .history__timeline--item-title{
+
+    .history__timeline--item-title {
         font-size: 42px;
     }
-    .history__timeline--item-description{
+
+    .history__timeline--item-description {
         font-size: 18px;
     }
 }
@@ -214,6 +221,66 @@
     .history__header--image {
         grid-column: span 2;
         background-position: bottom;
+    }
+
+    .history__about {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .history__beginning--title {
+        padding-top: 100px;
+        padding-bottom: 45px;
+    }
+
+    .history__beginning--element-img {
+        max-width: 345px;
+        min-height: 345px;
+    }
+
+    .history__modern--text,
+    .history__beginning--element-description {
+        max-width: 345px;
+    }
+
+    .history__beginning--element-images {
+        min-height: 180px;
+    }
+
+    .history__beginning--element-images > .history__beginning--element-img {
+        max-width: 108px;
+
+    }
+
+    .quote > .history__beginning--element-quote {
+        max-width: 720px;
+    }
+
+    .oil .history__beginning--element-description-text {
+        padding-top: 30px;
+    }
+
+    .small-img {
+        max-width: 220px;
+        min-height: 220px;
+    }
+
+    .history__modern {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .history__timeline-wrapper {
+        max-height: 1024px;
+    }
+
+    .history__timeline--title {
+        top: 100px;
+    }
+
+    .history__timeline {
+        padding-top: 260px;
+        padding-bottom: 260px;
     }
 }
 
