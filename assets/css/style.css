@@ -107,6 +107,7 @@
 .history__beginning--element-description-wrapper {
     display: flex;
     flex: 0 0 50%;
+    max-width: 765px;
 }
 
 .history__beginning--element-description {
@@ -119,6 +120,7 @@
     display: flex;
     min-height: 538px;
     flex: 1;
+    gap: 20px;
     justify-content: space-between;
 }
 
@@ -178,6 +180,7 @@
     padding-top: 300px;
     padding-bottom: 300px;
     display: flex;
+    gap: 20px;
 }
 
 .history__modern--text-wrapper {
